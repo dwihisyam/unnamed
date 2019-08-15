@@ -10,38 +10,38 @@ class PagesController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('olivellputri/index');
     }
 
     public function home()
     {
-        return view('home');
+        return view('olivellputri/home');
     }
 
     public function mempelai()
     {
-        return view('mempelai');
+        return view('olivellputri/mempelai');
     }
 
     public function acara()
     {
-        return view('acara');
+        return view('olivellputri/acara');
     }
 
     public function galeri()
     {
-        return view('galeri');
+        return view('olivellputri/galeri');
     }
 
     public function lokasi()
     {
-        return view('lokasi');
+        return view('olivellputri/lokasi');
     }
 
     public function ucapan()
     {
         $komentar = DB::table('komentars')->where('user', 'user')->get();
-        return view('ucapan', ['komentar' => $komentar]);
+        return view('olivellputri/ucapan', ['komentar' => $komentar]);
     }
 
     public function create(Request $request)
@@ -52,6 +52,6 @@ class PagesController extends Controller
             'komentar' => $request->komentar,
             'tanggal' => Carbon::now()
         ]);
-        return redirect('/ucapan');
+        return redirect('olivellputri/ucapan');
     }
 }
