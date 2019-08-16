@@ -131,7 +131,6 @@
                 if (mus.muted == true) {
                     mus.muted = false;
                     $(this).removeClass('fa-volume-mute').addClass('fa-volume-up');
-                    $(this).before('<span id="text">Wedding Bell</span>');
                 } else {
                     mus.muted = true;
                     $(this).removeClass('fa-volume-up').addClass('fa-volume-mute');
