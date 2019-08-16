@@ -37,7 +37,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item"><a><i id="btn-musik" class="fas fa-music fa-5x"></i></a></li>
+                            <li class="nav-item"><a><i id="btn-musik" class="fas fa-volume-mute fa-5x"></i></a></li>
                             <li class="nav-item"><a id="home" class="nav-link">Home</a></li>
                             <li class="nav-item"><a id="mempelai" class="nav-link">Mempelai </a></li>
                             <li class="nav-item"><a id="acara" class="nav-link">Acara</a></li>
@@ -91,19 +91,19 @@
             $('.nav-link').click(function() {
                 var menu = $(this).attr('id');
                 if (menu == 'home') {
-                    $('.badan').load('home');
+                    $('.badan').load('client/home');
                 } else if (menu == 'mempelai') {
-                    $('.badan').load('mempelai');
+                    $('.badan').load('client/mempelai');
                 } else if (menu == 'acara') {
-                    $('.badan').load('acara');
+                    $('.badan').load('client/acara');
                 } else if (menu == 'galeri') {
-                    $('.badan').load('galeri');
+                    $('.badan').load('client/galeri');
                 } else if (menu == 'lokasi') {
-                    $('.badan').load('lokasi');
+                    $('.badan').load('client/lokasi');
                 }
             });
 
-            $('.badan').load('home');
+            $('.badan').load('client/home');
 
             var countDownDate = new Date("Dec 11, 2019 00:00:00").getTime();
             var x = setInterval(function() {
@@ -130,8 +130,10 @@
                 var mus = document.getElementById("musik");
                 if (mus.muted == true) {
                     mus.muted = false;
+                    $(this).removeClass('fa-volume-mute').addClass('fa-volume-up');
                 } else {
                     mus.muted = true;
+                    $(this).removeClass('fa-volume-up').addClass('fa-volume-mute');
                 }
             });
         }())
