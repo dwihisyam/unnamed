@@ -8,16 +8,16 @@
     <link rel="icon" href="img/favicon.png" type="image/png">
     <title>@yield('title')</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{asset('/honey/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/vendors/linericon/style.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/vendors/owl-carousel/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/vendors/lightbox/simpleLightbox.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/vendors/nice-select/css/nice-select.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/vendors/animate-css/animate.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/vendors/linericon/style.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/vendors/owl-carousel/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/vendors/lightbox/simpleLightbox.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/vendors/nice-select/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/vendors/animate-css/animate.css')}}">
     <!-- main css -->
-    <link rel="stylesheet" href="{{asset('/honey/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('/honey/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/css/style.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('/honey/css/responsive.css')}}">
 </head>
 
 <body>
