@@ -8,9 +8,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-01.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-01.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-01.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-01.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -18,9 +18,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-02.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-02.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-02.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-02.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -28,9 +28,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-03.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-03.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-03.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-03.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -38,9 +38,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-03.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-03.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-03.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-03.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -48,9 +48,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-04.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-04.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-04.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-04.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,9 +58,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-05.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-05.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-05.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-05.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -68,9 +68,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-06.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-06.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-06.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-06.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>
@@ -78,9 +78,9 @@
             <div class="col-lg-3 mb-30">
                 <div class="journey_item">
                     <div class="h_gallery_item">
-                        <img src="{{asset('honey/img/moments/Image-06.jpg')}}" alt="">
+                        <img src="{{secure_asset('honey/img/moments/Image-06.jpg')}}" alt="">
                         <div class="hover">
-                            <a class="light" href="{{asset('honey/img/moments/Image-06.jpg')}}"><i class="fa fa-expand"></i></a>
+                            <a class="light" href="{{secure_asset('honey/img/moments/Image-06.jpg')}}"><i class="fa fa-expand"></i></a>
                         </div>
                     </div>
                 </div>

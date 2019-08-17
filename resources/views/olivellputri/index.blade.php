@@ -26,9 +26,9 @@
         <div class="main_menu">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container box_1620">
-                    <audio id="musik" src="{{asset('/musik.mp3')}}" loop autoplay muted></audio>
+                    <audio id="musik" src="{{secure_asset('/musik.mp3')}}" loop autoplay muted></audio>
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <a class="navbar-brand logo_h" href="{{url('/')}}"><img src="{{asset('/honey/img/logo.png')}}" alt=""></a>
+                    <a class="navbar-brand logo_h" href="{{url('/')}}"><img src="{{secure_asset('/honey/img/logo.png')}}" alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -57,7 +57,7 @@
     <!--================Footer Area =================-->
     <footer class="footer_area">
         <div class="footer_inner p_50">
-            <img src="{{asset('/honey/img/footer-logo.png')}}" alt="">
+            <img src="{{secure_asset('/honey/img/footer-logo.png')}}" alt="">
             <p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 Copyright &copy;<script>
@@ -72,23 +72,23 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://kit.fontawesome.com/a4ed702092.js"></script>
-    <script src="{{asset('/honey/js/jquery-3.2.1.min.js')}}"></script>
-    <script src="{{asset('/honey/js/popper.js')}}"></script>
-    <script src="{{asset('/honey/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('/honey/js/stellar.js')}}"></script>
-    <script src="{{asset('/honey/vendors/lightbox/simpleLightbox.min.js')}}"></script>
-    <script src="{{asset('/honey/vendors/nice-select/js/jquery.nice-select.min.js')}}"></script>
-    <script src="{{asset('/honey/vendors/isotope/imagesloaded.pkgd.min.js')}}"></script>
-    <script src="{{asset('/honey/vendors/isotope/isotope-min.js')}}"></script>
-    <script src="{{asset('/honey/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('/honey/vendors/flipclock/timer.js')}}"></script>
-    <script src="{{asset('/honey/js/jquery.ajaxchimp.min.js')}}"></script>
-    <script src="{{asset('/honey/js/mail-script.js')}}"></script>
-    <script src="{{asset('/honey/js/theme.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/popper.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/bootstrap.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/stellar.js')}}"></script>
+    <script src="{{secure_asset('/honey/vendors/lightbox/simpleLightbox.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/vendors/nice-select/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/vendors/isotope/imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/vendors/isotope/isotope-min.js')}}"></script>
+    <script src="{{secure_asset('/honey/vendors/owl-carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/vendors/flipclock/timer.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/jquery.ajaxchimp.min.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/mail-script.js')}}"></script>
+    <script src="{{secure_asset('/honey/js/theme.js')}}"></script>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC5rIe8cvjzlPetRb87jaLFlLWvPj92r1Q"></script>
     <script>
         (function() {
-            $('.nav-link').click(function() {
+            document.getElementsByClassName('nav-link').click(function() {
                 var menu = $(this).attr('id');
                 if (menu == 'home') {
                     $('.badan').load('olivellputri/home');

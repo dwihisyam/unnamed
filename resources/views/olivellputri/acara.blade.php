@@ -34,7 +34,7 @@
             <div class="col-lg-3"></div>
             <div class="col-lg-3">
                 <div class="progress_item">
-                    <img class="img-fluid" src="{{asset('honey/img/progress/progress-1.png')}}" alt="">
+                    <img class="img-fluid" src="{{secure_asset('honey/img/progress/progress-1.png')}}" alt="">
                     <div class="progress_text">
                         <a href="#">
                             <h4>Wedding Ceremony</h4>
@@ -61,7 +61,7 @@
                             <a href="#">Address: Rocky Beach, Los angeles, USA</a>
                         </div>
                     </div>
-                    <img class="img-fluid" src="{{asset('honey/img/progress/progress-2.png')}}" alt="">
+                    <img class="img-fluid" src="{{secure_asset('honey/img/progress/progress-2.png')}}" alt="">
                 </div>
             </div>
         </div>

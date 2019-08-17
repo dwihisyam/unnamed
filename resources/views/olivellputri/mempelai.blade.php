@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row story_inner">
             <div class="col-lg-4">
-                <img class="img-fluid" src="{{asset('honey/img/story/story-1.jpg')}}" alt="">
+                <img class="img-fluid" src="{{secure_asset('honey/img/story/story-1.jpg')}}" alt="">
             </div>
             <div class="col-lg-4">
                 <div class="story_text">
@@ -12,7 +12,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <img class="img-fluid" src="{{asset('honey/img/story/story-2.jpg')}}" alt="">
+                <img class="img-fluid" src="{{secure_asset('honey/img/story/story-2.jpg')}}" alt="">
             </div>
         </div>
     </div>
