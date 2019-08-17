@@ -6,52 +6,52 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Carbon;
 
-class PagesController extends Controller
+class FogerTyasController extends Controller
 {
     public function index()
     {
-        return view('olivellputri/index');
+        return view('fogertyas/index');
     }
 
     public function home()
     {
-        return view('olivellputri/home');
+        return view('fogertyas/home');
     }
 
     public function mempelai()
     {
-        return view('olivellputri/mempelai');
+        return view('fogertyas/mempelai');
     }
 
     public function acara()
     {
-        return view('olivellputri/acara');
+        return view('fogertyas/acara');
     }
 
     public function galeri()
     {
-        return view('olivellputri/galeri');
+        return view('fogertyas/galeri');
     }
 
     public function lokasi()
     {
-        return view('olivellputri/lokasi');
+        return view('fogertyas/lokasi');
     }
 
     public function ucapan()
     {
-        $komentar = DB::table('komentars')->where('user', 'user')->get();
-        return view('olivellputri/ucapan', ['komentar' => $komentar]);
+        $komentar = DB::table('komentars')->where('user', 'fogertyas')->get();
+        return view('fogertyas/ucapan', ['komentar' => $komentar]);
     }
 
     public function create(Request $request)
     {
         DB::table('komentars')->insert([
-            'user' => 'user',
+            'user' => 'fogertyas',
             'nama' => $request->nama,
             'komentar' => $request->komentar,
             'tanggal' => Carbon::now()
         ]);
-        return redirect('olivellputri/ucapan');
+        return redirect('/fogertyas');
     }
 }

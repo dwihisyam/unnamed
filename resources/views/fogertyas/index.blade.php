@@ -43,6 +43,7 @@
                             <li class="nav-item"><a id="acara" class="nav-link">Acara</a></li>
                             <li class="nav-item"><a id="galeri" class="nav-link">Galeri</a></li>
                             <li class="nav-item"><a id="lokasi" class="nav-link">Lokasi</a></li>
+                            <li class="nav-item"><a id="ucapan" class="nav-link">Ucapan</a></li>
                         </ul>
                     </div>
                 </div>
@@ -91,19 +92,21 @@
             $('.nav-link').click(function() {
                 var menu = $(this).attr('id');
                 if (menu == 'home') {
-                    $('.badan').load('olivellputri/home');
+                    $('.badan').load('fogertyas/home');
                 } else if (menu == 'mempelai') {
-                    $('.badan').load('olivellputri/mempelai');
+                    $('.badan').load('fogertyas/mempelai');
                 } else if (menu == 'acara') {
-                    $('.badan').load('olivellputri/acara');
+                    $('.badan').load('fogertyas/acara');
                 } else if (menu == 'galeri') {
-                    $('.badan').load('olivellputri/galeri');
+                    $('.badan').load('fogertyas/galeri');
                 } else if (menu == 'lokasi') {
-                    $('.badan').load('olivellputri/lokasi');
+                    $('.badan').load('fogertyas/lokasi');
+                } else if (menu == 'ucapan') {
+                    $('.badan').load('fogertyas/ucapan');
                 }
             });
 
-            $('.badan').load('olivellputri/home');
+            $('.badan').load('fogertyas/home');
 
             var countDownDate = new Date("Dec 11, 2019 00:00:00").getTime();
             var x = setInterval(function() {

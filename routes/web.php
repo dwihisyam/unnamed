@@ -13,11 +13,17 @@
 
 
 Route::get('/', 'HomeController@index');
-Route::get('/client', 'PagesController@index');
-Route::get('/client/home', 'PagesController@home');
-Route::get('/client/mempelai', 'PagesController@mempelai');
-Route::get('/client/acara', 'PagesController@acara');
-Route::get('/client/galeri', 'PagesController@galeri');
-Route::get('/client/lokasi', 'PagesController@lokasi');
-Route::get('/client/ucapan', 'PagesController@ucapan');
-Route::post('/client/ucapan', 'PagesController@create');
+Route::get('/olivellputri', 'OlivellPutriController@index');
+Route::get('/olivellputri/home', 'OlivellPutriController@home');
+Route::get('/olivellputri/mempelai', 'OlivellPutriController@mempelai');
+Route::get('/olivellputri/acara', 'OlivellPutriController@acara');
+Route::get('/olivellputri/galeri', 'OlivellPutriController@galeri');
+Route::get('/olivellputri/lokasi', 'OlivellPutriController@lokasi');
+Route::get('/fogertyas', 'FogerTyasController@index');
+Route::get('/fogertyas/home', 'FogerTyasController@home');
+Route::get('/fogertyas/mempelai', 'FogerTyasController@mempelai');
+Route::get('/fogertyas/acara', 'FogerTyasController@acara');
+Route::get('/fogertyas/galeri', 'FogerTyasController@galeri');
+Route::get('/fogertyas/lokasi', 'FogerTyasController@lokasi');
+Route::get('/fogertyas/ucapan', 'FogerTyasController@ucapan');
+Route::post('/fogertyas/ucapan', 'FogerTyasController@create');
